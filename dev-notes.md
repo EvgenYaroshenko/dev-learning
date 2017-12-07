@@ -22,8 +22,14 @@ List of staff to learn.
 10.	Repeat senior developer interview questions.
 11.	Get better understanding of github rules project structure and modules
 12.	Get better understanding of putty tunnels and so on
+13. Liquid base.
+14. Lombock
+15. Redis
 
 Current progress:
 
 29.11.2017
 Set environment for local machine(maven, jdk, tomcat, gitbash). Start github project with dev notes.
+
+07.12.2017
+Add spring boot template
