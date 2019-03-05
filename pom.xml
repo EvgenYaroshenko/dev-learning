@@ -6,9 +6,13 @@
     <groupId>com.github.iaroshenko.ievgen</groupId>
     <artifactId>exercise</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
 
     <name>Exercise parent pom</name>
+
+    <modules>
+        <module>design-patterns</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
