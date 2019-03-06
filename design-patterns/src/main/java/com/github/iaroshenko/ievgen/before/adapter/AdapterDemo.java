@@ -1,7 +1,7 @@
-package com.github.iaroshenko.ievgen.adapter.before;
+package com.github.iaroshenko.ievgen.before.adapter;
 
-import com.github.iaroshenko.ievgen.adapter.before.dto.Line;
-import com.github.iaroshenko.ievgen.adapter.before.dto.Rectangle;
+import com.github.iaroshenko.ievgen.before.adapter.dto.Line;
+import com.github.iaroshenko.ievgen.before.adapter.dto.Rectangle;
 
 public class AdapterDemo {
     public static void main(String[] args) {
