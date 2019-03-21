@@ -12,6 +12,7 @@
 
     <modules>
         <module>design-patterns</module>
+        <module>concurrency</module>
     </modules>
 
     <properties>
