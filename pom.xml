@@ -13,6 +13,7 @@
     <modules>
         <module>design-patterns</module>
         <module>concurrency</module>
+        <module>project-euler</module>
     </modules>
 
     <properties>
