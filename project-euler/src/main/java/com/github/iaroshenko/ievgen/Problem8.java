@@ -90,21 +90,21 @@ public class Problem8 {
                         cursor = cursor + 1;
 
                     } else {
-                        if (number.charAt(cursor + i -1) == '0') {
-                            int tempValue = cursor + i - 1;
-                            while (tempValue < number.length() - i && number.charAt(tempValue) == '0')  {
-                                tempValue = tempValue + 1;
-                            }
-                            previousCursor = cursor;
-                            cursor = tempValue + 1;
-                        } else {
+//                        if (number.charAt(cursor + i -1) == '0') {
+//                            int tempValue = cursor + i - 1;
+//                            while (tempValue < number.length() - i && number.charAt(tempValue) == '0')  {
+//                                tempValue = tempValue + 1;
+//                            }
+//                            previousCursor = cursor;
+//                            cursor = tempValue + 1;
+//                        } else {
                             BigInteger temp = previousResult;
                             previousResult = temp.divide(BigInteger.valueOf(number.charAt(cursor-1) - '0')).multiply(BigInteger.valueOf(number.charAt(cursor + i - 1) - '0'));
                             if (previousResult.compareTo(result) == 1)
                                 result = previousResult;
                             previousCursor = cursor;
                             cursor = cursor + 1;
-                        }
+//                        }
 
                     }
                 }
