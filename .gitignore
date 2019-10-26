@@ -1,0 +1,6 @@
+/project-euler/target/
+/design-patterns/target/
+/.idea/
+/design-patterns/design-patterns.iml
+/project-euler/project-euler.iml
+/concurrency/concurrency.iml
